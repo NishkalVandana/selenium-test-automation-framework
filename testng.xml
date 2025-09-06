@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="D:/attprojects/FrameworkProject">
         <parameter name="browsername" value="CHROME"/>
         <classes>
-            <class name="learn.tests.LoginFlow"/>
+            <class name="learn.tests.CartPageTest"/>
         </classes>
     </test>
 </suite>

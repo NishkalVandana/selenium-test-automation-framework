@@ -12,7 +12,7 @@ import static org.testng.Assert.assertTrue;
 public class LoginFlow extends BaseTest {
 
     @Test(priority = 1)
-    public void LoginFlow(){
+    public void LoginPassTestS(){
 
         String logotxt=loginPage.getlogo();
         Assert.assertEquals(logotxt,"Swag Labs");

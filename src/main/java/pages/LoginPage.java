@@ -53,4 +53,8 @@ public class LoginPage {
         }
     }
 
+    public  boolean isloginpagedisplayed(){
+        return driver.findElement(usernamefield).isDisplayed();
+    }
+
 }
