@@ -13,7 +13,7 @@ import pages.LoginPage;
 import pages.ProductPage;
 
 public class BaseTest {
-    WebDriver driver;
+    public static WebDriver driver;
     Configbuilder configbuilder=new Configbuilder();
     LoginPage loginPage;
     protected ProductPage productpage;
